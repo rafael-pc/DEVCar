@@ -1,3 +1,3 @@
 # DevCar
 
-Sistema de uma concessionária desenvolvido em C#.
+Sistema de uma montadora de veículos desenvolvido em C#.
