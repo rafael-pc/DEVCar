@@ -1,7 +1,8 @@
-﻿
+﻿using DevCar.Vehicle.Interfaces;
+
 namespace DevCar.Vehicle.Entities.Shared
 {
-    public class Vehicles
+    public class Vehicles : IVehicles
     {
         public int Chassi { get; set; }
         public DateTime DataDeFabricacao { get; set; }
@@ -10,9 +11,5 @@ namespace DevCar.Vehicle.Entities.Shared
         public decimal Valor { get; set; }
         public string? Cpf { get; set; }
         public string? Cor { get; set; }
-
-      
     }
-
-  
 }

@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DevCar.Vehicle.Validation
+﻿namespace DevCar.Vehicle.Validation
 {
     public class Validation
     {
-        public static string ValidaString(string texto)
+        public static string ValidaString(string? texto)
         {
             if (String.IsNullOrWhiteSpace(texto))
             {

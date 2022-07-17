@@ -1,11 +1,14 @@
 ﻿using DevCar.Vehicle.Entities.Shared;
+using DevCar.Vehicle.Interfaces;
 
 namespace DevCar.Vehicle.Entities
 {
-    public class Motorcycle : Vehicles
+    public class Motorcycle : Vehicles, IMotorcycle
     {
         public int Rodas { get; set; }
         public decimal Potencia { get; set; }
+
+        public IList<Motorcycle> Motos { get; set; }
 
         public Motorcycle(int chassi, DateTime dataDeFabricacao, string nome, string placa, decimal valor, string cpf, string cor, decimal potencia, int rodas)
         {
@@ -18,6 +21,7 @@ namespace DevCar.Vehicle.Entities
             Cor = cor;
             Potencia = potencia;
             Rodas = rodas;
+            Motos = new List<Motorcycle>();
         }
     }
 }
