@@ -7,7 +7,6 @@ namespace DevCar.Vehicle.Entities
     {
         public int Rodas { get; set; }
         public decimal Potencia { get; set; }
-
         public IList<Motorcycle> Motos { get; set; }
 
         public Motorcycle(int chassi, DateTime dataDeFabricacao, string nome, string placa, decimal valor, string cpf, string cor, decimal potencia, int rodas)

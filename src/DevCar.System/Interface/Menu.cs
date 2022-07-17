@@ -513,7 +513,7 @@ namespace DevCar.System.Interface
                 {
                     string? nome = Carros[index].Nome;
 
-                    Console.WriteLine($"\n Carro vendido com o maior preço ");
+                    Console.WriteLine($"\n Carro vendido com o menor preço ");
                     Console.WriteLine($"\n Nome: {nome}");
                     Console.WriteLine($" Valor: {menorValor}");
                 }

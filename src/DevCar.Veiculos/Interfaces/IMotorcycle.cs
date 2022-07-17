@@ -6,7 +6,6 @@ namespace DevCar.Vehicle.Interfaces
     {
         public int Rodas { get; }
         public decimal Potencia { get; }
-
         public IList<Motorcycle> Motos { get; }
     }
 }

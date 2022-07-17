@@ -8,7 +8,6 @@ namespace DevCar.Vehicle.Entities
         public decimal Potencia { get; set; }
         public CombustivelCarEnum Combustivel{ get; set; }
         public int Portas { get; set; }
-
         public IList<Car> Carros { get; set; }
 
         public Car(int chassi, DateTime dataDeFabricacao, string nome, string placa, decimal valor, string cpf, string cor, decimal potencia, CombustivelCarEnum combustivel, int portas)
@@ -30,7 +29,6 @@ namespace DevCar.Vehicle.Entities
             Nome = nome;
         }
     }
-
     public enum CombustivelCarEnum
     {
         Flex, Gasolina

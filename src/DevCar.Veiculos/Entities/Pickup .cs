@@ -9,7 +9,6 @@ namespace DevCar.Vehicle.Entities
         public int Portas { get; set; }
         public int Carregamento { get; set; }
         public CombustivelPickupEnum Combustivel { get; set; }
-
         public IList<Pickup> Camionete { get; set; }
 
         public Pickup(int chassi, DateTime dataDeFabricacao, string nome, string placa, decimal valor, string cpf, string cor, decimal potencia, int portas, int carregamento, CombustivelPickupEnum combustivel)

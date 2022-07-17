@@ -7,7 +7,6 @@ namespace DevCar.Vehicle.Interfaces
         public decimal Potencia { get; }
         public CombustivelCarEnum Combustivel { get; }
         public int Portas { get; set; }
-
         public IList<Car> Carros { get; }
     }
 }

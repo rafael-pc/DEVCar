@@ -8,7 +8,6 @@ namespace DevCar.Vehicle.Interfaces
         public int Portas { get; }
         public int Carregamento { get; }
         public CombustivelPickupEnum Combustivel { get; }
-
         public IList<Pickup> Camionete { get; set; }
     }
 }

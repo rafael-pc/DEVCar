@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevCar.Vehicle", "src\DevCar.Veiculos\DevCar.Vehicle.csproj", "{17DE0D4A-62F6-47D7-ABE9-9ADE03936551}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevCar.Vehicle", "src\DevCar.Veiculos\DevCar.Vehicle.csproj", "{17DE0D4A-62F6-47D7-ABE9-9ADE03936551}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevCar.System", "src\DevCar.System\DevCar.System.csproj", "{3EE06FE7-6D3F-4287-BA03-67C9950743DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevCar.System", "src\DevCar.System\DevCar.System.csproj", "{3EE06FE7-6D3F-4287-BA03-67C9950743DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CDD47832-A32B-4E41-A996-F7EC67CE8081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevCar.Tests", "tests\DevCar.Tests\DevCar.Tests.csproj", "{77BA5E66-D84C-45D2-B438-02909730D466}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +25,16 @@ Global
 		{3EE06FE7-6D3F-4287-BA03-67C9950743DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EE06FE7-6D3F-4287-BA03-67C9950743DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EE06FE7-6D3F-4287-BA03-67C9950743DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77BA5E66-D84C-45D2-B438-02909730D466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77BA5E66-D84C-45D2-B438-02909730D466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77BA5E66-D84C-45D2-B438-02909730D466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77BA5E66-D84C-45D2-B438-02909730D466}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77BA5E66-D84C-45D2-B438-02909730D466} = {CDD47832-A32B-4E41-A996-F7EC67CE8081}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {01616252-841F-45BF-B1CF-F2039297A730}
